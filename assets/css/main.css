@@ -58,6 +58,7 @@ button {
     margin: 16px auto;
     padding: 10px;
     font: normal 700 18px 'Rubik';
+    color: #080808;
     background-color: var(--yellow);
     border: none;
     border-radius: 15px;
@@ -383,6 +384,10 @@ details > summary {
 
 details p {
     padding: 0px 50px 0px 50px;
+}
+
+summary::marker {
+    content: none;
 }
 
 summary:hover {
