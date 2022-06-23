@@ -469,7 +469,7 @@ summary:before {
 
 }
 
-@media (max-width: 410px) {
+@media (max-width: 500px) {
 
     footer > nav {
        display: flex;
